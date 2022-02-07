@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import Image from "../Grey.png"
 import "./Members.css"
-import Baran from "../MemberPictures/Baran.jpeg"
+import Baran from "../MemberPictures/Baran.jpg"
 import Sude from "../MemberPictures/Sudis.jpg"
 import Ataberk from "../MemberPictures/Ataberk.jpg"
 import Hasanberk from "../MemberPictures/Hasan.jpg"
-import Şeyma from "../MemberPictures/Şeyma.jpeg"
-import BerkHoca from "../MemberPictures/BerkHoca.jpeg"
-import Hatice from "../MemberPictures/Hatice.jpeg"
+import Şeyma from "../MemberPictures/Şeyma.jpg"
+import BerkHoca from "../MemberPictures/BerkHoca.jpg"
+import Hatice from "../MemberPictures/Hatice.jpg"
 import Haluk from "../MemberPictures/Haluk.jpg"
+import Egemen from "../MemberPictures/Egemen.jpg"
+import Batuhan from "../MemberPictures/Batuhan.jpg"
+import İrem from "../MemberPictures/İrem.jpg"
+import Çağrıhan from "../MemberPictures/Çağrıhan.jpg"
 
 
 
@@ -145,7 +149,7 @@ export default class Members extends Component {
                     <div className="flip-card">
                           <div className="flip-card-inner">
                             <div className="flip-card-front">
-                              <img src={Image} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
+                              <img src={Çağrıhan} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
                             </div>
                             <div className="flip-card-back">
                               <h1>Çağrıhan AYDOĞAN</h1>
@@ -161,7 +165,7 @@ export default class Members extends Component {
                     <div className="flip-card">
                           <div className="flip-card-inner">
                             <div className="flip-card-front">
-                              <img src={Image} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
+                              <img src={Batuhan} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
                             </div>
                             <div className="flip-card-back">
                               <h1>Batuhan ERÇIKTI</h1>
@@ -213,7 +217,7 @@ export default class Members extends Component {
                     <div className="flip-card">
                           <div className="flip-card-inner">
                             <div className="flip-card-front">
-                              <img src={Image} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
+                              <img src={Egemen} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
                             </div>
                             <div className="flip-card-back">
                               <h1>Egemen ERKEN</h1>
@@ -230,7 +234,7 @@ export default class Members extends Component {
                     <div className="flip-card">
                           <div className="flip-card-inner">
                             <div className="flip-card-front">
-                              <img src={Image} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
+                              <img src={İrem} alt="Avatar" style={{width:"300px",height:"300px"}}></img>
                             </div>
                             <div className="flip-card-back">
                               <h1>İrem BAKIR</h1>
