@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Image from "../Grey.png"
 import "./Members.css"
 import Baran from "../MemberPictures/Baran.jpg"
 import Sude from "../MemberPictures/Sudis.jpg"
@@ -243,8 +242,8 @@ export default class Members extends Component {
                             </div>
                           </div>
                       </div>
-
-                  </div>      
+              </div>
+                     
 
                 <h1 className='text-center display-3'>
                   TOPLULUK DANIŞMANI
@@ -267,106 +266,104 @@ export default class Members extends Component {
 
                   </div>
 
-                  <h1 className='text-center display-6'>
-                    TOPLULUK ESKİ ÜYELERİ
-                    <hr/>
-                  </h1>  
+                <h1 className='text-center display-6'>
+                  TOPLULUK ESKİ ÜYELERİ
+                  <hr/>
+                </h1>  
 
-
-
-                  <div className='row'>
-                   <div className='col d-flex justify-content-center'>
-                     
-                    <ul style={{listStyle: "none"}}>
-                      <h3 className='text-center'>
-                        2018
-                      </h3>
-                      <li className='list-item'>
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Enes HALICI
-                        
-                             
-                        </pre>
-
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Sadık Alp ŞAHİN
-                        
-                             
-                        </pre>
-
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Duygu Dülger
-                        
-                             
-                        </pre>
-                      </li>   
-
-                      <li className='list-item'>
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Furkan Gültekin
-                        
-                             
-                        </pre>
-                      </li>              
-                      <li className='list-item'>
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Pelinsu Demirci
-                        
-                             
-                        </pre>
-                      </li>
-                      <li className='list-item'>
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Şevval BULUT
-                        
-                             
-                        </pre>
-                      </li>
-                      <li className='list-item'>
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Berk Alp DİREM
-                        
-                             
-                        </pre>
-                      </li>
-                      <li className='list-item'>
-                        <pre>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-                            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>   Recep YANIK
-                        
-                             
-                        </pre>
-                      </li>
-
-                    </ul>
-
-
-                  </div>
-
+                <div className='row'>
                     <div className='col d-flex justify-content-center'>
+                        
+                        <ul style={{listStyle: "none"}}>
+                          <h3 className='text-center'>
+                            2018
+                          </h3>
+                          <li className='list-item'>
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Enes HALICI
+                            
+                                
+                            </pre>
+
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Sadık Alp ŞAHİN
+                            
+                                
+                            </pre>
+
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Duygu Dülger
+                            
+                                
+                            </pre>
+                          </li>   
+
+                          <li className='list-item'>
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Furkan Gültekin
+                            
+                                
+                            </pre>
+                          </li>              
+                          <li className='list-item'>
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Pelinsu Demirci
+                            
+                                
+                            </pre>
+                          </li>
+                          <li className='list-item'>
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Şevval BULUT
+                            
+                                
+                            </pre>
+                          </li>
+                          <li className='list-item'>
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Berk Alp DİREM
+                            
+                                
+                            </pre>
+                          </li>
+                          <li className='list-item'>
+                            <pre>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg>   Recep YANIK
+                            
+                                
+                            </pre>
+                          </li>
+
+                        </ul>
+
+
+                    </div>
+
+                   <div className='col d-flex justify-content-center'>
                     <ul style={{listStyle: "none"}}>
                     <h3 className='text-center'>
                         2019
@@ -492,13 +489,11 @@ export default class Members extends Component {
                         </pre>
                       </li>
 
+                   </ul>
+                </div>
                    
-
-                      
-
-                    </ul>
                     <div className='col d-flex justify-content-center'>
-                    <ul style={{listStyle: "none"}}>
+                     <ul style={{listStyle: "none"}}>
                       <li className='list-item'>
                       <h3 className='text-center'>
                         2020
@@ -600,7 +595,8 @@ export default class Members extends Component {
                         
                              
                         </pre>
-                      </li>                      <li className='list-item'>
+                      </li>                      
+                      <li className='list-item'>
                         <pre>
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
                             <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
@@ -617,10 +613,16 @@ export default class Members extends Component {
                   </div>
 
                   
-                  </div>
                   
                   
-                 </div>           
+                 </div>     
+
+
+
+
+
+
+
                       
                       
 
