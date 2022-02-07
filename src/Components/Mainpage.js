@@ -3,49 +3,49 @@ import React, { Component } from 'react';
 
 export default class Mainpage extends Component {
   render() {
-    return  <div className='container-xxl mt-2'>
-
-              <div className="row justify-content-md-center">
-                <div className="col-auto mt-3">
-                  <h3 className="text-center fst-italic">
-                  Kendinizi geliştirebileceğiniz, gelişirken eğlenebileceğiniz bir topluluk mu arıyorsunuz? Öyleyse doğru yerdesiniz. Konumsal Bilgi Topluluğu’na hoş geldiniz!
-                  </h3>
-                </div>
-              </div> 
+    return  <div className='container mt-2'>
 
 
 
 
 
-            
-                  <div className="row row-cols-auto">
-                      <div className="col w-100">
-                        <div className="p-3">
-                          <ul className="list-group">                          
+   
+            <div className="row d-inline-block">
+                      <div className="col d-block">
+                        <div>
+                          <ul className="list-group mb-3">                          
                             <li className="list-group-item list-group-item-dark bg-default">
                               
-                                <p className="fw-bold fs-5">• Konumsal bilgi nedir?</p>
+                                <p className="fw-bold fs-5 text-center"> Konumsal bilgi nedir?</p>
                              
-                              <p className="fst-italic">
+                                  <p className="fst-italic text-center">
 
-                              Yeryüzündeki bir noktaya ait tüm verilerin harita ile ilişkilendirilebilmesi için gereken bilgilerdir.
-                              </p>
+                                      Yeryüzündeki bir noktaya ait tüm verilerin harita ile ilişkilendirilebilmesi için gereken bilgilerdir.
+                                  </p>
                             </li>
                           </ul>                            
                         </div>  
                       </div> 
-                      <div className="col mb-2">
-                        <div className="p-3"> 
-                          <ul className="list-group">
-                            <li className="list-group-item list-group-item-dark bg-default">
-                              <p className="fw-bold fs-5">•	Konumsal Bilgi Topluluğu ne zaman ve ne amaçla kurulmuştur?</p>
-                              <p className="fst-italic">Geomatik Mühendisliği öğrencileri tarafından 2018 yılında sosyal ve mesleki gelişmeler sağlanması, bir dayanışma ve yardımlaşma ortamı kurulması amacıyla birleşmiş ve KONUMSAL BİLGİ TOPLULUĞU ’nu kurmuşlardır.
-                              </p>
-                            </li>
-                          </ul>
+                      
+                        <div className="col">
+                          <div> 
+                            <ul className="list-group mb-4">
+                              <li className="list-group-item list-group-item-dark bg-default">
+                                <p className="fw-bold fs-5 text-center">Konumsal Bilgi Topluluğu ne zaman ve ne amaçla kurulmuştur?</p>
+                                <p className="fst-italic text-center">Geomatik Mühendisliği öğrencileri tarafından 2018 yılında sosyal ve mesleki gelişmeler sağlanması, bir dayanışma ve yardımlaşma ortamı kurulması amacıyla birleşmiş ve KONUMSAL BİLGİ TOPLULUĞU ’nu kurmuşlardır.
+                                </p>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>       
+
+                      
+       
                   </div>
+     
+
+            
+
                   
              
 
@@ -55,7 +55,7 @@ export default class Mainpage extends Component {
 
 
 
-              <div className="contanier-fluid">
+              <div className="contanier-fluid text-center">
                 <div className="clearfix">
                   
                   <p>
@@ -78,7 +78,7 @@ export default class Mainpage extends Component {
                   </p>
                 </div> 
               </div>
-              <div className="container">
+              <div className="container text-center">
 
                 <div className="row">
                   <div className="col order-2">
