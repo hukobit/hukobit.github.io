@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7daa9d4a.css",
+    "main.js": "/static/js/main.6498766e.js",
+    "static/media/Hasan.jpg": "/static/media/Hasan.d5231fdf0a587912968c.jpg",
+    "static/media/Baran.jpeg": "/static/media/Baran.5e4714e838c9131b0aa2.jpeg",
+    "static/media/Şeyma.jpeg": "/static/media/Şeyma.78a367452a041b39c07f.jpeg",
+    "static/media/LogoOylaması.jpg": "/static/media/LogoOylaması.cfaf42739d0363ea1498.jpg",
+    "static/media/meme.jpg": "/static/media/meme.feef9867bf93245e2457.jpg",
+    "static/media/Sudis.jpg": "/static/media/Sudis.f5f949dee67d061ddf32.jpg",
+    "static/media/Hatice.jpeg": "/static/media/Hatice.f3baf49957cbe0ca8349.jpeg",
+    "static/media/Haluk.jpg": "/static/media/Haluk.9077ea4edabe91ca4f02.jpg",
+    "static/media/Ataberk.jpg": "/static/media/Ataberk.16bd18114fb33b9dc67b.jpg",
+    "static/media/BerkHoca.jpeg": "/static/media/BerkHoca.afad7391da98060565fd.jpeg",
+    "static/media/logo.jpg": "/static/media/logo.d394a78336dfb4f2ac50.jpg",
+    "index.html": "/index.html",
+    "main.7daa9d4a.css.map": "/static/css/main.7daa9d4a.css.map",
+    "main.6498766e.js.map": "/static/js/main.6498766e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7daa9d4a.css",
+    "static/js/main.6498766e.js"
+  ]
+}
