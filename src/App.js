@@ -5,7 +5,7 @@ import HomePage from './Pages/HomePage';
 import ErrorPage from './Pages/ErrorPage';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import React from 'react';
-import logo from "./Components/logo.jpg";
+import logo from "../src/kobitlogo.png";
 
   
 function App() {
@@ -15,11 +15,11 @@ function App() {
            <div className="container-fluid">
                 <Link to='/' style={{ textDecoration: 'none' }}>
                   <div className="navbar-brand" href="#">
-                    <img src= {logo} alt="" width="80" height="80" className="rounded mx-auto d-inline-block"/>
+                    <img src= {logo} alt="" width="120" height="120" className="rounded mx-auto d-inline-block"/>
                     
-                      <h5 className='d-inline-block'>
+                      <h3 className='d-inline-block'>
                         Konumsal Bilgi Topluluğu
-                      </h5>
+                      </h3>
                   </div>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
