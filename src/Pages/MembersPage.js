@@ -1,18 +1,14 @@
-
 import Members from "../Components/Members";
 import Footer from "../Components/Footer";
+import React from 'react';
 
-import React, { Component } from 'react';
-
-export default class MembersPage extends Component {
-  render() {
-    return <div>
-
-
-                <Members />
+function MembersPage() {
+    return (
+    		<div>
+			    <Members />
                 <Footer />
+            </div>
+    )}
 
+export default MembersPage
 
-            </div>;
-  }
-}
