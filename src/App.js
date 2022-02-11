@@ -4,7 +4,7 @@ import HomePage from './Pages/HomePage';
 import ErrorPage from './Pages/ErrorPage';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import React from 'react';
-import logo from "../src/Local-Logo/siyah-logo.png";
+import logo from "../src/Local-Logo/KOBIT_circular.png";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <Link to='/' style={{ textDecoration: 'none' }}>
-                  <div className="navbar-brand" href="#">
-                    <img src= {logo} alt="" width="60" height="60" className="rounded mx-auto d-inline-block"/>
+                  <div className="navbar-brand " href="#">
+                    <img src= {logo} alt="" width="100" height="100" className="rounded mx-auto d-inline-block"/>
                         <h3 className='d-inline-block'>
                             Konumsal Bilgi Topluluğu
                         </h3>

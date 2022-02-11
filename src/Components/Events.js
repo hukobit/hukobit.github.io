@@ -17,7 +17,7 @@ function Events() {
                                 <div className="card-body">
                                     <h2>    Yeni logomuzu oyladık!  </h2>
                                     <p className='fs-6 fw-lighter fst-italic'>  Tarih: 06/02/2022   </p>
-                                        <a className="btn btn-primary" data-bs-toggle="collapse" href="#demo1" role="button" aria-expanded="false" aria-controls="Logo-etkinlik">
+                                        <a className="btn btn-primary" data-bs-toggle="collapse" href="#Logo-etkinlik" role="button" aria-expanded="false" aria-controls="Logo-etkinlik">
                                             ETKİNLİK DETAY
                                         </a>
                                         <div id="Logo-etkinlik" className="collapse">
