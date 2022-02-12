@@ -1,16 +1,18 @@
 import React from 'react'
+import "./css-files/Hero.css"
 
 function Hero() {
   	return(
-  			<div>
-                <div className='p-5 mb-4 rounded-3' style={{backgroundImage: 'url("https://cutewallpaper.org/21/seamless-space-background/Starrs-In-Outer-Space-Seamless-Background-Or-Texture-.jpg")'}}>
-                    <div className='container-fluid py-5'>
-                        <h4 className='display-8 fw-bold text-white text-center'>Konumsal Bilgi Topluluğu'na Hoş Geldiniz</h4>
-                        <p className='fs-4 fw-light fst-italic text-white text-center'>
-                          Kendinizi geliştirebileceğiniz, gelişirken eğlenebileceğiniz bir topluluk mu arıyorsunuz? Öyleyse doğru yerdesiniz. 
-                        </p>
-					</div>
+          <div className="text-secondary px-4 py-5 text-center mb-3" style={{backgroundImage: "url('https://images.unsplash.com/photo-1524839214740-fd71e555084a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW9vbiUyMHRleHR1cmV8ZW58MHx8MHx8&w=1000&q=80')"}}>
+              <div className="py-5">
+                <h1 className="display-5 fw-bold text-dark">Konumsal Bilgi Topluluğu'na Hoşgeldin</h1>
+                <div className="col-lg-6 mx-auto">
+                  <p className="fs-5 mb-4 text-dark">Kendinizi geliştirebileceğiniz, gelişirken eğlenebileceğiniz bir topluluk mu arıyorsunuz? Öyleyse doğru yerdesin</p>
+                  <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  </div>
                 </div>
-			</div>	)}
+              </div>
+          </div>
+        )}
 
 export default Hero
