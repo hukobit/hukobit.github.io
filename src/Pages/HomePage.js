@@ -1,15 +1,15 @@
 import Mainpage from "../Components/Mainpage";
 import Footer from "../Components/Footer";
-import React, { Component } from 'react';
 import Hero from "../Components/Hero";
+import React from 'react';
 
-export default class HomePage extends Component {
-  render() {
-    return <div>
-
+function HomePage() {
+    return (
+    	<div>
             <Hero />
             <Mainpage />
             <Footer />
-            </div>;
-  }
-}
+        </div>
+    )}
+
+export default HomePage
