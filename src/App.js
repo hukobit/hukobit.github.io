@@ -4,7 +4,7 @@ import HomePage from './Pages/HomePage';
 import ErrorPage from './Pages/ErrorPage';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import React from 'react';
-import logo from "../src/Local-Logo/KOBIT_circular.png";
+import logo from "../src/Local-Logo/YuvarlakYeni.jpg";
 
 function App() {
   return (

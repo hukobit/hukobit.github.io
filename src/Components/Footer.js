@@ -7,6 +7,7 @@ function Footer() {
               	<section className="mb-4">
                   	<div className='container'>
                     	<div className='row justify-content-center'>
+							{/*
                         	<div className='col ' style={{maxWidth: "46px"}}>
                             	<button type='button' className='btn btn-secondary'>
                                 	<a href='#' className='link-dark'>
@@ -16,6 +17,7 @@ function Footer() {
                                   	</a>
                               	</button>
                           	</div>
+							  */}  
 							<div className='col' style={{maxWidth: "46px"}}>
 								<button type='button' className='btn btn-secondary'>
 									<a href='#' className='link-dark'>
