@@ -3,17 +3,15 @@ import React from 'react';
 
 function Events(props) {
     return(  
-            <div className='container'>
-                <div>
-                </div>
-                <div className='row gx-5 justify-content-center'>
-                    <div className='col my-5 mx-2 col-md-6 col-lg-4'>
+
+                
+                    <div className='col-lg-4 mb-3 d-flex align-items-stretch'>
                         <div className="card">
                             <img src={props.url} className="card-img-top" alt="..."></img>
-                                <div className="card-body">
+                                <div className="card-body d-flex flex-column">
                                     <h2> {props.name}  </h2>
                                     <p className='fs-6 fw-lighter fst-italic'>  {props.date}   </p>
-                                        <a className="btn btn-primary" data-bs-toggle="collapse" href={"#"+props.id} role="button" aria-expanded="false" aria-controls={props.id}>
+                                        <a className="btn btn-primary mt-auto" data-bs-toggle="collapse" href={"#"+props.id} role="button" aria-expanded="false" aria-controls={props.id}>
                                             ETKİNLİK DETAY
                                         </a>
                                         <div id={props.id} className="collapse">
@@ -23,8 +21,8 @@ function Events(props) {
                                 </div>
                         </div>
                     </div>
-                </div> 
-            </div>
+           
+ 
         )}
 
 export default Events
